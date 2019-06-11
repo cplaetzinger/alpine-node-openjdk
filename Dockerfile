@@ -1,5 +1,5 @@
 FROM node:10.16.0-alpine
-LABEL maintainer "Christian Plätzinger <christian@plaetzinger.de>"
+LABEL maintainer="Christian Plätzinger <christian@plaetzinger.de>"
 
 ARG REFRESHED_AT
 ENV REFRESHED_AT $REFRESHED_AT
